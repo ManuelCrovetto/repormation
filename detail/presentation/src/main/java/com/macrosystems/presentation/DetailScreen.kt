@@ -61,7 +61,7 @@ fun DetailScreen(
     onAction: (DetailActions) -> Unit,
     repoData: RepoData? = null
 ) {
-    Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+    Column(modifier = Modifier.fillMaxWidth().padding(8.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             RoundedImage(isSelected = true, url = repoData?.owner?.profileImageUrl.orEmpty())
             Column {
