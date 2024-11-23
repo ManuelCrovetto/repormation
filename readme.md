@@ -9,7 +9,7 @@ This app will fetch the GitHub repositories of the great dev Jake Wharton and In
 - MVVM as Presentation Pattern ⻮
 - Compose
 
-### Images
+### Images 📸
 - User's repo list
 <img src="readme-images/list.png" alt="repo list" width="200"/>
 - Repo details
