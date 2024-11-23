@@ -58,7 +58,7 @@ fun RepoCard(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 modifier = Modifier.weight(5f)
             ) {
-                Text(name, fontSize = 18.sp, fontWeight = FontWeight.Bold)
+                Text(name, fontSize = 18.sp, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(description, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Badge(
                     text = language,
