@@ -9,6 +9,12 @@ This app will fetch the GitHub repositories of the great dev Jake Wharton and In
 - MVVM as Presentation Pattern ⻮
 - Compose
 
+### Images
+- User's repo list
+<img src="readme-images/list.png" alt="repo list" width="200"/>
+- Repo details
+<img src="readme-images/detail.png" alt="repo details" width="200"/>
+
 ### How to compile the project
 As GitHub api limits the requests per hour and we don't wanna run out of fun too quick, you need to create your GitHub `PAT`, no permissions required for the `PAT`.
 - Make sure to have your `local.properties` file in the root folder ✅
