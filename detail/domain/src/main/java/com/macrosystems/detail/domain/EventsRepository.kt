@@ -1,7 +1,6 @@
 package com.macrosystems.detail.domain
 
 import com.macrosystems.core.domain.RepoEvent
-import com.macrosystems.core.domain.ResponseSource
 import com.macrosystems.core.domain.Result
 import com.macrosystems.core.domain.util.DataError
 

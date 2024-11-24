@@ -1,7 +1,6 @@
 package com.macrosystems.list.data
 
 import com.macrosystems.core.domain.RepoData
-import com.macrosystems.core.domain.ResponseSource
 import com.macrosystems.core.domain.util.DataError
 import com.macrosystems.core.data.api.UserGithubAPI
 import com.macrosystems.core.data.model.toDomain

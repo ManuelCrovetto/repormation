@@ -5,7 +5,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.macrosystems.core.domain.ResponseSource
 import com.macrosystems.core.domain.Result
 import com.macrosystems.core.presentation.ui.asUiText
 import com.macrosystems.list.domain.UserGithubRepository
