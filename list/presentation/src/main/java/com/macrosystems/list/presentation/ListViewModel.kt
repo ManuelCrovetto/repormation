@@ -7,14 +7,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.macrosystems.core.domain.Result
 import com.macrosystems.core.presentation.ui.asUiText
-import com.macrosystems.list.domain.UserGithubRepository
+import com.macrosystems.list.domain.UserReposRepository
 import com.macrosystems.list.domain.User
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 
 class ListViewModel(
-    private val userGithubRepo: UserGithubRepository
+    private val userGithubRepo: UserReposRepository
 ): ViewModel() {
 
     var state by mutableStateOf(
