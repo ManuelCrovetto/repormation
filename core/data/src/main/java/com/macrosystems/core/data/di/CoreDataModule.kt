@@ -1,10 +1,14 @@
 package com.macrosystems.core.data.di
 
 import com.macrosystems.core.data.BuildConfig
-import com.macrosystems.core.data.RepormationInterceptor
+import com.macrosystems.core.domain.RemoteGitHubDataSource
+import com.macrosystems.core.data.networking.RemoteGitHubDataSourceImpl
+import com.macrosystems.core.data.networking.RepormationInterceptor
 import com.macrosystems.core.data.api.UserGithubAPI
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import org.koin.core.module.dsl.singleOf
+import org.koin.dsl.bind
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -36,4 +40,5 @@ val coreDataModule = module {
     single {
         get<Retrofit>().create(UserGithubAPI::class.java)
     }
+    singleOf(::RemoteGitHubDataSourceImpl).bind<RemoteGitHubDataSource>()
 }
