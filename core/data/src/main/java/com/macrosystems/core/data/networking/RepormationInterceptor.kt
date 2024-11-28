@@ -1,5 +1,6 @@
-package com.macrosystems.core.data
+package com.macrosystems.core.data.networking
 
+import com.macrosystems.core.data.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 
